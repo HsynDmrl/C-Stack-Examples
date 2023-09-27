@@ -16,12 +16,12 @@
 
 // STACK’LERİN DİZİ (Array) İMPLEMENTASYONU
 
-						  //				 ______
-typedef struct stack      //				|______|
-{                         //				|______|
-	int data[STACK_SIZE]; //----> // top	|______|	Burayı oluşturduk.
-	int top;              //---->   		|______|
-} stack1;                 //				  data
+				//				 ______
+typedef struct stack      	//				|______|
+{                        	//				|______|
+	int data[STACK_SIZE]; 	//----> 		// top	|______|	Burayı oluşturduk.
+	int top;              	//---->   			|______|
+} stack1;                 	//				  data
 
 // Stack’lere Eleman Ekleme İşlemi (push)
 
